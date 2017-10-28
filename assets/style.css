@@ -1,0 +1,76 @@
+* {
+	background-color: #e7dfdd;
+	box-sizing: border-box;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+button, input[type=submit] {
+	background-color: #062f4f;
+	font-family: 'Coda', cursive;
+	font-size: 18px;
+	color: #e7dfdd;
+	border-style: none;
+	border-radius: 4px;
+	margin: 2px;
+	width: auto;
+}
+
+button:hover, input[type=submit]:hover {
+	background-color: #813772;
+}
+
+p, label {
+	font-family: 'Josefin Sans', sans-serif;
+	color: #1d2731;
+	font-size: 16px;
+}
+
+input {
+	width: 100%;
+	margin: 10px 0 10px 0;
+	padding: 5px;
+}
+
+.gif {
+	height: 200px;
+	width: auto;
+	margin-bottom: 5px;
+}
+
+.gif-container {
+	display: inline-block;
+	width: auto;
+	height: auto;
+	padding: 7px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.rating-text {
+	line-height: 120%;
+}
+
+#button-div {
+	float: left;
+	height: auto;
+	margin: 5px 0 20px 0;
+	padding-left: 3px;
+}
+
+#gif-div {
+	display: block;
+	float: left;
+	width: 70%;
+	height: auto;
+	padding-top: 10px;
+}
+
+#tv-form {
+	display: block;
+	float: left;
+	width: 30%;
+	height: auto;
+	padding: 0 20px 0 20px;
+}
